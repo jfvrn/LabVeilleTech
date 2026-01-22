@@ -20,11 +20,11 @@ theme = "minimal-black"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  favicon = "static/images/memojiSouriant.png"
+  favicon = "/images/memojiSouriant.png"
   appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
-  logo = "static/images/memojiSouriant.png"
+  logo = "/images/memojiSouriant.png"
 
   # Web App Manifest Configuration (PWA support)
   [params.manifest]
@@ -197,7 +197,7 @@ theme = "minimal-black"
     title = "Hi, I'm Your Name or your interesting title."
     role = "Subtitle for title with role perspective"
     summary = "You can write your summary to be displayed here."
-    avatar = "static/images/memojiSouriant.png"  Optional: 400x400px recommended
+    avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
     location = "City, Country"
     focus = "Currently focused on Hugo themes & developer experience."
     available = true
