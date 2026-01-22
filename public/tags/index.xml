@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Joé Favre</title>
-    <link>http://localhost:57474/LabVeilleTech/tags/</link>
+    <link>http://localhost:1313/LabVeilleTech/tags/</link>
     <description>Recent content in Tags on Joé Favre</description>
     <generator>Hugo</generator>
     <language>fr-ch</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57474/LabVeilleTech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/LabVeilleTech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/guide/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/guide/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/guide/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/hugo/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/hugo/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/hugo/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Open-Source</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/open-source/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/open-source/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/open-source/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Theme</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/theme/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/theme/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/theme/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/theme/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/tutorial/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/tutorial/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/tutorial/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Development</title>
-      <link>http://localhost:57474/LabVeilleTech/tags/web-development/</link>
+      <link>http://localhost:1313/LabVeilleTech/tags/web-development/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57474/LabVeilleTech/tags/web-development/</guid>
+      <guid>http://localhost:1313/LabVeilleTech/tags/web-development/</guid>
       <description></description>
     </item>
   </channel>
