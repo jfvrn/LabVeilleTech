@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joé Favre</title><link>https://jvrn.github.io/LabVeilleTech/projects/</link><description>Recent content on Joé Favre</description><generator>Hugo</generator><language>fr-ch</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jvrn.github.io/LabVeilleTech/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Minimal Black Hugo Theme</title><link>https://jvrn.github.io/LabVeilleTech/projects/sample-project/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/projects/sample-project/</guid><description>&lt;p&gt;A comprehensive Hugo theme designed for developers, designers, and everyone in general who value simplicity, performance, and beautiful dare I say dark mode design (maybe?).&lt;/p&gt;
+&lt;h2 id="overview"&gt;
+ &lt;a href="#overview" class="md-heading-anchor"&gt;
+ Overview
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Minimal Black is a modern Hugo theme that combines aesthetic appeal with practical functionality.&lt;/p&gt;
+&lt;p&gt;Built with Tailwind CSS and a modular architecture, it provides everything you need for a professional personal website, portfolio or blog.&lt;/p&gt;
+&lt;h3 id="key-features"&gt;
+ &lt;a href="#key-features" class="md-heading-anchor"&gt;
+ Key Features
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;True Black Dark Mode&lt;/strong&gt; — With purple accents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsive Design&lt;/strong&gt; — Perfect on mobile, tablet, and desktop&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search Functionality&lt;/strong&gt; — Fast client-side search with Ctrl/Cmd+K&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt; — Auto-generated&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syntax Highlighting&lt;/strong&gt; — Beautiful code blocks with copy functionality&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Layouts&lt;/strong&gt; — Flexible page templates for different content types (more to come hopefully).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-architecture"&gt;
+ &lt;a href="#technical-architecture" class="md-heading-anchor"&gt;
+ Technical Architecture
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="frontend-stack"&gt;
+ &lt;a href="#frontend-stack" class="md-heading-anchor"&gt;
+ Frontend Stack
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo Extended&lt;/strong&gt; (v0.120.0+) — Static site generator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tailwind CSS&lt;/strong&gt; — Utility-first CSS framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vanilla JS&lt;/strong&gt; — Minimal JS used - no framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PostCSS&lt;/strong&gt; — CSS processing and optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="css-modular-structure"&gt;
+ &lt;a href="#css-modular-structure" class="md-heading-anchor"&gt;
+ CSS Modular Structure
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The CSS is organized into logical modules:&lt;/p&gt;</description></item></channel></rss>
