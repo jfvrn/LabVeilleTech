@@ -1,4 +1,4 @@
-baseURL = 'https://minimal-black-demo.netlify.app'
+baseURL = 'https://jvrn.github.io/LabVeilleTech/'
 languageCode = 'fr-ch'
 title = 'Joé Favre'
 theme = "minimal-black"
