@@ -1,6 +1,6 @@
 baseURL = 'https://minimal-black-demo.netlify.app'
-languageCode = 'fr-us'
-title = 'Minimal Black Theme'
+languageCode = 'fr-ch'
+title = 'Joé Favre'
 theme = "minimal-black"
 
 # Enable search index generation and web app manifest
