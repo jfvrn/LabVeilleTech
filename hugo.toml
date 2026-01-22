@@ -20,7 +20,7 @@ theme = "minimal-black"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  favicon = "icons/favicon.svg"
+  favicon = "images/memojiSouriant.png"
   appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
