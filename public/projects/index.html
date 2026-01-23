@@ -11,12 +11,12 @@
 
 <title>Joé Favre</title>
 
-<meta name="description" content="A minimal, dark-mode first personal site, or whatever else you want it to be about" />
+<meta name="description" content="Bienvenue sur mon site de veille" />
 
 
 
 
-  <link rel="icon" type="image/x-icon" href="/LabVeilleTech/images/memojiSouriant.png" />
+  <link rel="icon" type="image/x-icon" href="/static/images/memojiSouriant.png" />
 
 
 
@@ -40,6 +40,27 @@
 
 
 <link rel="stylesheet" href="/LabVeilleTech/css/main.css"> 
+
+
+<style>
+:root {
+  --color-accent: #6df755;
+  --color-bg: #f9fafb;
+  --color-surface: #ffffff;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+}
+
+html[data-theme="dark"] {
+  --color-accent: #6df755;
+  --color-bg: #000000;
+  --color-surface: #0a0a0a;
+  --color-text: #f9fafb;
+  --color-text-muted: #9ca3af;
+  --color-border: #27272a;
+}
+</style>
 
 
   <link
@@ -80,7 +101,7 @@
         window.matchMedia &&
         window.matchMedia("(prefers-color-scheme: dark)").matches;
       var defaultTheme =
-        'dark';
+        'system';
 
       var theme =
         stored ||
@@ -115,7 +136,7 @@
           
             <div class="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-surface">
               <img
-                src="/LabVeilleTech/images/memojiSouriant.png"
+                src="/images/memojiSouriant.png"
                 alt="Joé Favre"
                 class="h-full w-full object-cover"
               >

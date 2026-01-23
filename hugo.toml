@@ -16,11 +16,11 @@ theme = "minimal-black"
 
 [params]
   brand = "Joé Favre"
-  description = "A minimal, dark-mode first personal site, or whatever else you want it to be about"
+  description = "Bienvenue sur mon site de veille"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  favicon = "/images/memojiSouriant.png"
+  favicon = "/static/images/memojiSouriant.png"
   appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
@@ -46,7 +46,22 @@ theme = "minimal-black"
 
   # Theme Configuration
   [params.theme]
-    defaultTheme = "dark"  # Options: "light", "dark", "system"
+    defaultTheme = "system"  # Options: "light", "dark", "system"
+    
+    # Color Scheme
+    [params.theme.colors]
+      accentLight = "#6df755"  # Light theme accent color
+      accentDark = "#6df755"   # Dark theme accent color
+      bgLight = "#f9fafb"      # Light theme background
+      surfaceLight = "#ffffff" # Light theme surface
+      textLight = "#111827"    # Light theme text
+      textMutedLight = "#6b7280" # Light theme muted text
+      borderLight = "#e5e7eb"  # Light theme border
+      bgDark = "#000000"       # Dark theme background (TRUE BLACK)
+      surfaceDark = "#0a0a0a"  # Dark theme surface
+      textDark = "#f9fafb"     # Dark theme text
+      textMutedDark = "#9ca3af" # Dark theme muted text
+      borderDark = "#27272a"   # Dark theme border
 
   # Home Page Configuration
   [params.home]
@@ -61,95 +76,7 @@ theme = "minimal-black"
     blogTitle = "Latest Writing"
     blogSubtitle = ""
     techMarqueeLabel = "Experienced In"
-
-    # Technology Stack Display
-    [[params.home.tech]]
-      label = "Python"
-      icon = "devicon-python-plain"
-
-    [[params.home.tech]]
-      label = "Java"
-      icon = "devicon-java-plain"
-
-    [[params.home.tech]]
-      label = "Spring"
-      icon = "devicon-spring-plain"  
-
-    [[params.home.tech]]
-      label = "Vaadin"
-      icon = "devicon-vaadin-plain"    
-
-    [[params.home.tech]]
-      label = "Debian"
-      icon = "devicon-debian-plain"
-
-    [[params.home.tech]]
-      label = "GitLab"
-      icon = "devicon-gitlab-plain"
-
-    [[params.home.tech]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
-
-    [[params.home.techReverse]]
-      label = "PostgreSQL"
-      icon = "devicon-postgresql-plain"
-
-    [[params.home.techReverse]]
-      label = "MongoDB"
-      icon = "devicon-mongodb-plain"
-
-    [[params.home.techReverse]]
-      label = "Git"
-      icon = "devicon-git-plain"
-
-    [[params.home.techReverse]]
-      label = "Hugo"
-      icon = "devicon-hugo-plain"  
-
-    [[params.home.techReverse]]
-      label = "Jenkins"
-      icon = "devicon-jenkins-plain"   
-
-    [[params.home.techReverse]]
-      label = "JetBrains"
-      icon = "devicon-jetbrains-plain" 
-
-    [[params.home.techReverse]]
-      label = "Json"
-      icon = "devicon-json-plain" 
-
-    [[params.home.techReverse]]
-      label = "Linux"
-      icon = "devicon-linux-plain"          
-
-    [[params.home.techReverse]]
-      label = "Liquibase"
-      icon = "devicon-liquibase-plain" 
-
-    [[params.home.techReverse]]
-      label = "Markdown"
-      icon = "devicon-markdown-original"  
-
-    [[params.home.techReverse]]
-      label = "YAML"
-      icon = "devicon-yaml-plain"  
-
-    [[params.home.techReverse]]
-      label = "Wordpress"
-      icon = "devicon-wordpress-plain"
-
-    [[params.home.techReverse]]
-      label = "WooCommerce"
-      icon = "devicon-woocommerce-plain"            
-
-    [[params.home.techReverse]]
-      label = "Traefik"
-      icon = "devicon-traefikproxy-plain" 
-
-    [[params.home.techReverse]]
-      label = "pfSense"
-      icon = "devicon-pfsense-plain"       
+       
 
   # About Page Alternative Layout Configuration - Optional
   [params.about.alt]
@@ -193,15 +120,13 @@ theme = "minimal-black"
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Software Engineer"
-    title = "Hi, I'm Your Name or your interesting title."
-    role = "Subtitle for title with role perspective"
+    badge = "Étudiant en Ingénierie des médias"
+    title = "Salut ! Moi c'est Joé"
+    role = "Interessé par le design UX/UI"
     summary = "You can write your summary to be displayed here."
     avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
     location = "City, Country"
-    focus = "Currently focused on Hugo themes & developer experience."
-    available = true
-    availableLabel = "Available for work"
+  
 
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm mainly:"

@@ -1,7 +1,7 @@
 {
   "name": "Joé Favre",
   "short_name": "Joé Favre",
-  "description": "A minimal, dark-mode first personal site, or whatever else you want it to be about",
+  "description": "Bienvenue sur mon site de veille",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

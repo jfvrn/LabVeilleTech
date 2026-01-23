@@ -41,6 +41,27 @@
 
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}"> 
 
+<!-- Dynamic Theme Colors -->
+<style>
+:root {
+  --color-accent: {{ .Site.Params.theme.colors.accentLight }};
+  --color-bg: {{ .Site.Params.theme.colors.bgLight }};
+  --color-surface: {{ .Site.Params.theme.colors.surfaceLight }};
+  --color-text: {{ .Site.Params.theme.colors.textLight }};
+  --color-text-muted: {{ .Site.Params.theme.colors.textMutedLight }};
+  --color-border: {{ .Site.Params.theme.colors.borderLight }};
+}
+
+html[data-theme="dark"] {
+  --color-accent: {{ .Site.Params.theme.colors.accentDark }};
+  --color-bg: {{ .Site.Params.theme.colors.bgDark }};
+  --color-surface: {{ .Site.Params.theme.colors.surfaceDark }};
+  --color-text: {{ .Site.Params.theme.colors.textDark }};
+  --color-text-muted: {{ .Site.Params.theme.colors.textMutedDark }};
+  --color-border: {{ .Site.Params.theme.colors.borderDark }};
+}
+</style>
+
 {{ if .Site.Params.icons.useFontAwesome }}
   <link
     rel="stylesheet"
