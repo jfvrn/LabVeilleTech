@@ -16,7 +16,7 @@ theme = "minimal-black"
 
 [params]
   brand = "Joé Favre"
-  description = "Bienvenue sur mon site de veille"
+  description = "Bienvenue sur mon blog de veille technologique"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
@@ -66,11 +66,11 @@ theme = "minimal-black"
   # Home Page Configuration
   [params.home]
     sections = ["hero", "now", "tech-marquee", "projects", "posts"]
-    showNowSection = true
+    showNowSection = false
     showFeaturedProjects = false
     showLatestPosts = true
     featuredProjectsLimit = 3
-    latestPostsLimit = 3
+    latestPostsLimit = 10
     projectsTitle = "Selected Work"
     projectsSubtitle = ""
     blogTitle = "Mes articles"
@@ -80,18 +80,6 @@ theme = "minimal-black"
 
   # About Page Alternative Layout Configuration - Optional
   [params.about.alt]
-    # Stats displayed in the profile card sidebar
-    [[params.about.alt.stats]]
-      value = "5+"
-      label = "Years Coding"
-
-    [[params.about.alt.stats]]
-      value = "20+"
-      label = "Projects"
-
-    [[params.about.alt.stats]]
-      value = "∞"
-      label = "Hours Spent"
 
     # Skills/Tech Stack badges with icons
     [[params.about.alt.skills]]
@@ -105,12 +93,10 @@ theme = "minimal-black"
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Étudiant en Ingénierie des médias"
-    title = "Salut ! Moi c'est Joé"
-    role = "Interessé par le design UX/UI"
-    summary = "You can write your summary to be displayed here."
-    avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
-    location = "Vevey, Suisse"
+    badge = "LabVeilTech"
+    title = "Bienvenue sur mon blog de veille sur le design !"
+    summary = "Salut ! Moi c'est Joé"
+    # avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
   
   [params.hero.primary]
     label = "Voir mes articles"
@@ -163,7 +149,7 @@ theme = "minimal-black"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Accueil"
     pageRef = "/"
     url = "/"
     weight = 1
@@ -173,7 +159,7 @@ theme = "minimal-black"
 
 
   [[menu.main]]
-    name = "About"
+    name = "À propos"
     pageRef = "about-alternative"
     url = "/about-alternative/"
     weight = 2
