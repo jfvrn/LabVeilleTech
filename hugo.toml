@@ -20,11 +20,11 @@ theme = "minimal-black"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  favicon = "/static/images/memojiSouriant.png"
+  favicon = "images/logoJFDesignChrome.png"
   appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
-  logo = "/images/memojiSouriant.png"
+  logo = "images/logoJFDesignChrome.png"
 
   # Web App Manifest Configuration (PWA support)
   [params.manifest]
@@ -96,7 +96,7 @@ theme = "minimal-black"
     badge = "LabVeilTech"
     title = "Bienvenue sur mon blog de veille sur le design !"
     summary = "Salut ! Moi c'est Joé"
-    # avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
+    # avatar = "images/memojiSouriant.png"  # Optional: 400x400px recommended
   
   [params.hero.primary]
     label = "Voir mes articles"

@@ -2,6 +2,7 @@
 title = "À propos"
 description = "Mon Ikigai, mon domaine de veille et la taxonomie de ce blog sur l'UX/UI et le design graphique dans le football."
 draft = false
+avatar = "images/avatar.png"
 +++
 
 ## Mon Ikigai

@@ -6,7 +6,7 @@
         <!-- Left Sidebar - Profile Card -->
         <aside class="about-alt-sidebar">
           <div class="about-alt-profile-card">
-            {{ with .Site.Params.hero.avatar }}
+            {{ with .Params.avatar | default .Site.Params.hero.avatar }}
               <div class="about-alt-avatar">
                 <img src="{{ . | relURL }}" alt="{{ $.Site.Params.brand }}" />
               </div>
