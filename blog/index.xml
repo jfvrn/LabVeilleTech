@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joé Favre</title><link>https://jvrn.github.io/LabVeilleTech/blog/</link><description>Recent content on Joé Favre</description><generator>Hugo</generator><language>fr-ch</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jvrn.github.io/LabVeilleTech/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Complete Guide to Minimal Black Theme</title><link>https://jvrn.github.io/LabVeilleTech/blog/theme-guide/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/theme-guide/</guid><description>&lt;p&gt;Welcome to the complete guide for the Minimal Black Hugo theme!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Joé Favre</title><link>https://jvrn.github.io/LabVeilleTech/blog/</link><description>Recent content on Joé Favre</description><generator>Hugo</generator><language>fr-ch</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://jvrn.github.io/LabVeilleTech/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Apprendre du terrain : métaphores du football pour concevoir des interfaces</title><link>https://jvrn.github.io/LabVeilleTech/blog/learnfromthepitch/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/learnfromthepitch/</guid><description>&lt;p&gt;Dans cet article, j&amp;rsquo;explore un angle original : utiliser le football comme source d&amp;rsquo;inspiration pour la conception d&amp;rsquo;interfaces. Plusieurs auteurs ont fait ce parallèle et j&amp;rsquo;ai trouvé leurs réflexions très enrichissantes pour ma pratique.&lt;/p&gt;
+&lt;h2 id="pourquoi-ce-sujet-mintéresse"&gt;
+ &lt;a href="#pourquoi-ce-sujet-mint%c3%a9resse" class="md-heading-anchor"&gt;
+ Pourquoi ce sujet m&amp;rsquo;intéresse
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;J&amp;rsquo;aime jouer au foot, regarder du foot et créer des visuels. Relier ces deux mondes — le terrain et l&amp;rsquo;écran — me permet de mieux comprendre les principes d&amp;rsquo;UX à travers une grille de lecture qui me parle. C&amp;rsquo;est une façon de nourrir ma réflexion en connectant ma passion et ma profession.&lt;/p&gt;</description></item><item><title>Design graphique dans le football : identités, affiches et maillots</title><link>https://jvrn.github.io/LabVeilleTech/blog/designofclubs/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/designofclubs/</guid><description>&lt;p&gt;Le design graphique dans le football est un domaine qui me passionne particulièrement. Dans cet article, je partage mes découvertes sur la façon dont les clubs construisent leur identité visuelle et engagent leurs fans à travers des créations percutantes.&lt;/p&gt;
+&lt;h2 id="pourquoi-ce-sujet-mintéresse"&gt;
+ &lt;a href="#pourquoi-ce-sujet-mint%c3%a9resse" class="md-heading-anchor"&gt;
+ Pourquoi ce sujet m&amp;rsquo;intéresse
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Je suis bon en création visuelle et j&amp;rsquo;aime créer des visuels liés au football. C&amp;rsquo;est une zone de passion et de profession dans mon Ikigai. Comprendre comment les grands clubs travaillent leur branding me permet d&amp;rsquo;affiner ma propre pratique et de m&amp;rsquo;inspirer des tendances actuelles.&lt;/p&gt;</description></item><item><title>Mon système d'écoute : comment j'organise ma veille UX/football</title><link>https://jvrn.github.io/LabVeilleTech/blog/systemedecoute/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/systemedecoute/</guid><description>&lt;p&gt;Dans cet article, je présente comment j&amp;rsquo;ai mis en place mon système de veille sur l&amp;rsquo;UX/UI et le design graphique dans le football. L&amp;rsquo;objectif est de partager ma méthode pour que d&amp;rsquo;autres puissent s&amp;rsquo;en inspirer ou l&amp;rsquo;adapter à leur propre domaine.&lt;/p&gt;
+&lt;h2 id="mes-sources-découte"&gt;
+ &lt;a href="#mes-sources-d%c3%a9coute" class="md-heading-anchor"&gt;
+ Mes sources d&amp;rsquo;écoute
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="plateformes-de-design"&gt;
+ &lt;a href="#plateformes-de-design" class="md-heading-anchor"&gt;
+ Plateformes de design
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dribbble et Behance&lt;/strong&gt; : je suis les projets tagués &amp;ldquo;football app&amp;rdquo;, &amp;ldquo;sports UI&amp;rdquo;, &amp;ldquo;club branding&amp;rdquo; pour repérer les tendances graphiques et les interactions innovantes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Awwwards&lt;/strong&gt; : pour identifier les sites de clubs ou de ligues qui reçoivent des distinctions UX/UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="articles-et-blogs-spécialisés"&gt;
+ &lt;a href="#articles-et-blogs-sp%c3%a9cialis%c3%a9s" class="md-heading-anchor"&gt;
+ Articles et blogs spécialisés
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UX Collective, UX Planet&lt;/strong&gt; : articles de fond sur l&amp;rsquo;expérience utilisateur, parfois appliqués au sport&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blogs sport business&lt;/strong&gt; : pour comprendre les enjeux business derrière les choix de design (engagement fan, monétisation, fidélisation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="réseaux-sociaux-et-newsletters"&gt;
+ &lt;a href="#r%c3%a9seaux-sociaux-et-newsletters" class="md-heading-anchor"&gt;
+ Réseaux sociaux et newsletters
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Twitter/X et LinkedIn&lt;/strong&gt; : je suis des designers qui travaillent pour des clubs ou des agences sportives&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Newsletters spécialisées&lt;/strong&gt; : quelques newsletters sur le design produit et le sport digital&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="mon-workflow"&gt;
+ &lt;a href="#mon-workflow" class="md-heading-anchor"&gt;
+ Mon workflow
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="collecte"&gt;
+ &lt;a href="#collecte" class="md-heading-anchor"&gt;
+ Collecte
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;J&amp;rsquo;utilise un outil de bookmarking (signets navigateur + Notion) pour centraliser les liens, captures d&amp;rsquo;écran et notes personnelles sur chaque projet. Chaque entrée est datée et taguée rapidement.&lt;/p&gt;</description></item><item><title>Utiliser les LLM pour structurer ma veille UX/UI dans le football</title><link>https://jvrn.github.io/LabVeilleTech/blog/useofllm/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/useofllm/</guid><description>&lt;p&gt;Dans cet article, je partage comment j&amp;rsquo;utilise les LLM (Large Language Models) pour optimiser ma veille technologique. C&amp;rsquo;est un outil qui m&amp;rsquo;aide à traiter plus d&amp;rsquo;informations tout en gardant une vision structurée de mon domaine.&lt;/p&gt;
+&lt;h2 id="pourquoi-ce-sujet-mintéresse"&gt;
+ &lt;a href="#pourquoi-ce-sujet-mint%c3%a9resse" class="md-heading-anchor"&gt;
+ Pourquoi ce sujet m&amp;rsquo;intéresse
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ma veille porte sur l&amp;rsquo;UX/UI et le design graphique dans le football, un domaine où les sources sont nombreuses et variées (articles, case studies, projets Dribbble/Behance, vidéos). Les LLM me permettent de gagner du temps sur les tâches répétitives pour me concentrer sur l&amp;rsquo;analyse et la création de contenu.&lt;/p&gt;</description></item><item><title>UX pour les fans de football : du stade à l'écran</title><link>https://jvrn.github.io/LabVeilleTech/blog/uxforfootballfans/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/uxforfootballfans/</guid><description>&lt;p&gt;Dans cet article, j&amp;rsquo;explore comment les clubs et ligues utilisent le digital pour créer des expériences fans continues avant, pendant et après le match. Ce sujet est au cœur de mon domaine de veille car il relie directement ma passion pour le football à mon métier de designer UX/UI.&lt;/p&gt;
+&lt;h2 id="pourquoi-ce-sujet-mintéresse"&gt;
+ &lt;a href="#pourquoi-ce-sujet-mint%c3%a9resse" class="md-heading-anchor"&gt;
+ Pourquoi ce sujet m&amp;rsquo;intéresse
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Mon Ikigai se situe au croisement du football, du design et de la technologie. Je veux concevoir des expériences visuelles et numériques personnalisées qui transmettent une énergie positive. Comprendre comment les grandes plateformes sportives engagent leurs utilisateurs me permet de nourrir ma pratique et d&amp;rsquo;identifier les meilleures pratiques du secteur.&lt;/p&gt;</description></item><item><title>Complete Guide to Minimal Black Theme</title><link>https://jvrn.github.io/LabVeilleTech/blog/theme-guide/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://jvrn.github.io/LabVeilleTech/blog/theme-guide/</guid><description>&lt;p&gt;Welcome to the complete guide for the Minimal Black Hugo theme!&lt;/p&gt;
 &lt;p&gt;This post demonstrates all the features, components, and customization options available in the theme.&lt;/p&gt;
 &lt;h2 id="introduction"&gt;
  &lt;a href="#introduction" class="md-heading-anchor"&gt;
