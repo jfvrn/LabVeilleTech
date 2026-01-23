@@ -1,6 +1,6 @@
 baseURL = 'https://jvrn.github.io/LabVeilleTech/'
 languageCode = 'fr-ch'
-title = 'Joé Favre'
+title = 'LabVeilTech - Joé Favre'
 theme = "minimal-black"
 
 # Enable search index generation and web app manifest
@@ -50,10 +50,10 @@ theme = "minimal-black"
     
     # Color Scheme
     [params.theme.colors]
-      accentLight = "#6df755"  # Light theme accent color
-      accentDark = "#6df755"   # Dark theme accent color
-      bgLight = "#f9fafb"      # Light theme background
-      surfaceLight = "#ffffff" # Light theme surface
+      accentLight = "#202020"  # Light theme accent color
+      accentDark = "#676767"   # Dark theme accent color
+      bgLight = "#f1f5f9"      # Light theme background
+      surfaceLight = "#f8fafc" # Light theme surface
       textLight = "#111827"    # Light theme text
       textMutedLight = "#6b7280" # Light theme muted text
       borderLight = "#e5e7eb"  # Light theme border
@@ -94,8 +94,8 @@ theme = "minimal-black"
   # Hero Section Configuration
   [params.hero]
     badge = "LabVeilTech"
-    title = "Bienvenue sur mon blog de veille sur le design !"
-    summary = "Salut ! Moi c'est Joé"
+    title = "Bienvenue sur mon blog !"
+    summary = "Blog de veille technologique sur l'UX/UI Design et le design graphique dans le monde du football "
     # avatar = "images/memojiSouriant.png"  # Optional: 400x400px recommended
   
   [params.hero.primary]
