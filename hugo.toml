@@ -57,8 +57,8 @@ theme = "minimal-black"
       textLight = "#111827"    # Light theme text
       textMutedLight = "#6b7280" # Light theme muted text
       borderLight = "#e5e7eb"  # Light theme border
-      bgDark = "#000000"       # Dark theme background (TRUE BLACK)
-      surfaceDark = "#0a0a0a"  # Dark theme surface
+      bgDark = "#1a1a1a"       # Dark theme background
+      surfaceDark = "#202020"  # Dark theme surface
       textDark = "#f9fafb"     # Dark theme text
       textMutedDark = "#9ca3af" # Dark theme muted text
       borderDark = "#27272a"   # Dark theme border
@@ -67,13 +67,13 @@ theme = "minimal-black"
   [params.home]
     sections = ["hero", "now", "tech-marquee", "projects", "posts"]
     showNowSection = true
-    showFeaturedProjects = true
+    showFeaturedProjects = false
     showLatestPosts = true
     featuredProjectsLimit = 3
     latestPostsLimit = 3
     projectsTitle = "Selected Work"
     projectsSubtitle = ""
-    blogTitle = "Latest Writing"
+    blogTitle = "Mes articles"
     blogSubtitle = ""
     techMarqueeLabel = "Experienced In"
        
@@ -95,28 +95,13 @@ theme = "minimal-black"
 
     # Skills/Tech Stack badges with icons
     [[params.about.alt.skills]]
-      label = "JavaScript"
-      icon = "devicon-javascript-plain"
+      label = "Figma"
+      icon = "devicon-figma-plain"
 
     [[params.about.alt.skills]]
-      label = "Python"
-      icon = "devicon-python-plain"
+      label = "Photoshop"
+      icon = "devicon-photoshop-plain"
 
-    [[params.about.alt.skills]]
-      label = "React"
-      icon = "devicon-react-original"
-
-    [[params.about.alt.skills]]
-      label = "Docker"
-      icon = "devicon-docker-plain"
-
-    [[params.about.alt.skills]]
-      label = "PostgreSQL"
-      icon = "devicon-postgresql-plain"
-
-    [[params.about.alt.skills]]
-      label = "AWS"
-      icon = "devicon-amazonwebservices-plain"
 
   # Hero Section Configuration
   [params.hero]
@@ -125,24 +110,11 @@ theme = "minimal-black"
     role = "Interessé par le design UX/UI"
     summary = "You can write your summary to be displayed here."
     avatar = "/images/memojiSouriant.png"  # Optional: 400x400px recommended
-    location = "City, Country"
+    location = "Vevey, Suisse"
   
-
-    nowLabel = "Quick Facts"
-    nowIntro = "Right now I'm mainly:"
-    now = [
-      "Building minimal Hugo themes",
-      "Exploring dark-mode design patterns",
-      "Writing about web performance"
-    ]
-
-    [params.hero.primary]
-      label = "View Projects"
-      href = "/projects/"
-
-    [params.hero.secondary]
-      label = "Read the Blog"
-      href = "/blog/"
+  [params.hero.primary]
+    label = "Voir mes articles"
+    href = "/LabVeilleTech/blog/"
 
   # Icon Libraries
   [params.icons]
@@ -151,19 +123,19 @@ theme = "minimal-black"
 
   # Social Links
   [[params.social]]
-    label = "GitLab"
-    url = "https://gitlab.com/jimchr12"
-    icon = "fa-brands fa-gitlab"
-
-  [[params.social]]
     label = "LinkedIn"
-    url = "https://www.linkedin.com/in/jimchristopoulos-542512221/"
+    url = "https://www.linkedin.com/in/jo%C3%A9-favre/"
     icon = "fa-brands fa-linkedin-in"
 
   [[params.social]]
-    label = "Email"
-    url = "mailto:you@example.com"
-    icon = "fa-regular fa-envelope"
+    label = "Pinterest"
+    url = "https://fr.pinterest.com/JFDSIGN/"
+    icon = "fa-brands fa-pinterest"
+
+  [[params.social]]
+    label = "Instagram"
+    url = "https://www.instagram.com/jfd3sign"
+    icon = "fa-brands fa-instagram"
 
   # Analytics Configuration
   [params.analytics]
@@ -209,14 +181,6 @@ theme = "minimal-black"
     [menu.main.params]
       icon = "fa-solid fa-user"
 
-  [[menu.main]]
-    name = "Projects"
-    pageRef = "projects"
-    url = "/projects/"
-    weight = 3
-    identifier = "projects"
-    [menu.main.params]
-      icon = "fa-regular fa-folder-open"
 
   [[menu.main]]
     name = "Blog"

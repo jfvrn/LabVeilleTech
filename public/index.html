@@ -55,8 +55,8 @@
 
 html[data-theme="dark"] {
   --color-accent: #6df755;
-  --color-bg: #000000;
-  --color-surface: #0a0a0a;
+  --color-bg: #1a1a1a;
+  --color-surface: #202020;
   --color-text: #f9fafb;
   --color-text-muted: #9ca3af;
   --color-border: #27272a;
@@ -170,15 +170,6 @@ html[data-theme="dark"] {
                 <span>About</span>
               </a>
               <a
-                href="/LabVeilleTech/projects/"
-                class="nav-link link-underline flex items-center gap-1 "
-              >
-                
-                  <i class="fa-regular fa-folder-open text-[0.75rem]"></i>
-                
-                <span>Projects</span>
-              </a>
-              <a
                 href="/LabVeilleTech/blog/"
                 class="nav-link link-underline flex items-center gap-1 "
               >
@@ -274,13 +265,6 @@ html[data-theme="dark"] {
           <span>About</span>
         </a>
       
-        <a href="/LabVeilleTech/projects/" class="flex items-center gap-2 py-1.5">
-          
-            <i class="fa-regular fa-folder-open text-[0.8rem]"></i>
-          
-          <span>Projects</span>
-        </a>
-      
         <a href="/LabVeilleTech/blog/" class="flex items-center gap-2 py-1.5">
           
             <i class="fa-regular fa-note-sticky text-[0.8rem]"></i>
@@ -334,7 +318,7 @@ html[data-theme="dark"] {
       
         <span class="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface/90 px-3 py-1.5">
           <i class="fa-solid fa-location-dot text-[0.8rem]"></i>
-          <span class="font-medium">City, Country</span>
+          <span class="font-medium">Vevey, Suisse</span>
         </span>
       
 
@@ -347,15 +331,11 @@ html[data-theme="dark"] {
     
     <div class="mt-4 flex flex-wrap items-center gap-3">
       
-        <a href="/projects/" class="btn-primary">
-          View Projects
+        <a href="/LabVeilleTech/blog/" class="btn-primary">
+          Voir mes articles
         </a>
       
 
-      
-        <a href="/blog/" class="btn-ghost link-underline">
-          Read the Blog
-        </a>
       
     </div>
   </div>
@@ -380,27 +360,23 @@ html[data-theme="dark"] {
         
   <div class="space-y-4">
     <div class="space-y-3">
-      <h2 class="heading-section">Quick Facts</h2>
+      <h2 class="heading-section">Now</h2>
       <div class="card card-pad text-xs text-muted">
         
-          <p class="mb-2">Right now I&#39;m mainly:</p>
-        
 
         
-          <ul class="list-disc space-y-1 pl-4">
-            
-              <li>Building minimal Hugo themes</li>
-            
-              <li>Exploring dark-mode design patterns</li>
-            
-              <li>Writing about web performance</li>
-            
-          </ul>
+          <p>
+            Add a <code>hero.now</code> list in your config to describe what you’re
+            focused on right now.
+          </p>
         
       </div>
     </div>
   </div>
 
+
+      
+        
 
       
         
@@ -410,90 +386,7 @@ html[data-theme="dark"] {
   <div class="space-y-3 animate-fade-up">
     <div class="space-y-1">
       <h2 class="heading-section">
-        Selected Work
-      </h2>
-      
-    </div>
-
-    
-    
-    
-    
-    
-
-    <div class="grid gap-4 md:grid-cols-2">
-      
-        <article class="card card-pad card-home card-home--project group">
-  
-  <a href="/LabVeilleTech/projects/sample-project/" class="card-home-body">
-    <div class="card-home-header">
-      <div class="card-home-icon">
-        <i class="fa-solid fa-folder-tree"></i>
-      </div>
-
-      <div class="min-w-0">
-        <div class="inline-flex items-center gap-1">
-          <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
-            Minimal Black Hugo Theme
-          </h3>
-          
-            <span class="card-badge">Featured</span>
-          
-        </div>
-
-        
-      </div>
-    </div>
-
-    
-      <p class="mt-2 text-xs text-muted">
-        A minimal, dark-mode first Hugo theme
-      </p>
-    
-
-    
-  </a>
-
-  
-  <div class="card-home-footer card-home-footer--buttons">
-    <div class="flex items-center gap-2">
-
-      
-
-      
-        <a href="https://minimal-black-demo.netlify.app" class="card-cta-btn" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-play text-[0.75rem]"></i>
-          <span>Demo</span>
-        </a>
-      
-
-      
-
-    </div>
-  </div>
-</article>
-
-      
-    </div>
-
-    <div class="mt-3 flex justify-end">
-      <a
-        href="/projects/"
-        class="btn-primary btn-primary-sm inline-flex items-center gap-2"
-      >
-        <span>View all projects</span>
-        <i class="fa-solid fa-arrow-right-long text-[0.8rem]"></i>
-      </a>
-    </div>
-  </div>
-
-
-      
-        
-  <div class="space-y-3 animate-fade-up">
-    <div class="space-y-1">
-      <h2 class="heading-section">
-        Latest Writing
+        Mes articles
       </h2>
       
     </div>
@@ -504,7 +397,7 @@ html[data-theme="dark"] {
     <div class="grid gap-4 md:grid-cols-2">
       
         <article class="card card-pad card-home card-home--post group">
-  <a href="/LabVeilleTech/blog/theme-guide/" class="card-home-body">
+  <a href="/LabVeilleTech/blog/learnfromthepitch/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
         <i class="fa-regular fa-file-lines"></i>
@@ -514,15 +407,15 @@ html[data-theme="dark"] {
         <div class="flex items-start justify-between gap-2">
           <div class="min-w-0">
             <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
-              Complete Guide to Minimal Black Theme
+              Apprendre du terrain : métaphores du football pour concevoir des interfaces
             </h3>
 
             <div class="mt-0.5 flex flex-wrap items-center gap-2 text-[0.68rem] text-muted">
               
-                <span>15 Jan 2025</span>
+                <span>23 Jan 2026</span>
               
               
-                <span>• 7 min read</span>
+                <span>• 3 min read</span>
               
             </div>
           </div>
@@ -538,18 +431,126 @@ html[data-theme="dark"] {
 
     
       <p class="mt-2 text-xs text-muted">
-        A comprehensive guide to all features and capabilities of the Minimal Black Hugo theme
+        Ce que la tactique, la clarté des gestes et les icônes du football peuvent apprendre aux designers UX/UI.
       </p>
     
 
     
       <div class="mt-3 card-tag-row">
         
-          <span class="card-tag-pill">hugo</span>
+          <span class="card-tag-pill">ux-philosophy</span>
         
-          <span class="card-tag-pill">tutorial</span>
+          <span class="card-tag-pill">interaction-design</span>
         
-          <span class="card-tag-pill">guide</span>
+          <span class="card-tag-pill">football-mindset</span>
+        
+      </div>
+    
+  </a>
+</article>
+
+      
+        <article class="card card-pad card-home card-home--post group">
+  <a href="/LabVeilleTech/blog/designofclubs/" class="card-home-body">
+    <div class="card-home-header">
+      <div class="card-home-icon card-home-icon--post">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+
+      <div class="min-w-0">
+        <div class="flex items-start justify-between gap-2">
+          <div class="min-w-0">
+            <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
+              Design graphique dans le football : identités, affiches et maillots
+            </h3>
+
+            <div class="mt-0.5 flex flex-wrap items-center gap-2 text-[0.68rem] text-muted">
+              
+                <span>23 Jan 2026</span>
+              
+              
+                <span>• 2 min read</span>
+              
+            </div>
+          </div>
+
+          
+            <span class="card-badge card-badge--soft">
+              Article
+            </span>
+          
+        </div>
+      </div>
+    </div>
+
+    
+      <p class="mt-2 text-xs text-muted">
+        Comment le design graphique façonne l&#39;image des clubs et l&#39;engagement des fans.
+      </p>
+    
+
+    
+      <div class="mt-3 card-tag-row">
+        
+          <span class="card-tag-pill">branding-club</span>
+        
+          <span class="card-tag-pill">affiche-de-match</span>
+        
+          <span class="card-tag-pill">data-visualisation</span>
+        
+      </div>
+    
+  </a>
+</article>
+
+      
+        <article class="card card-pad card-home card-home--post group">
+  <a href="/LabVeilleTech/blog/systemedecoute/" class="card-home-body">
+    <div class="card-home-header">
+      <div class="card-home-icon card-home-icon--post">
+        <i class="fa-regular fa-file-lines"></i>
+      </div>
+
+      <div class="min-w-0">
+        <div class="flex items-start justify-between gap-2">
+          <div class="min-w-0">
+            <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
+              Mon système d&#39;écoute : comment j&#39;organise ma veille UX/football
+            </h3>
+
+            <div class="mt-0.5 flex flex-wrap items-center gap-2 text-[0.68rem] text-muted">
+              
+                <span>23 Jan 2026</span>
+              
+              
+                <span>• 2 min read</span>
+              
+            </div>
+          </div>
+
+          
+            <span class="card-badge card-badge--soft">
+              Article
+            </span>
+          
+        </div>
+      </div>
+    </div>
+
+    
+      <p class="mt-2 text-xs text-muted">
+        Présentation de mon système d&#39;écoute : sources, outils, organisation du contenu et intégration avec mon blog Hugo.
+      </p>
+    
+
+    
+      <div class="mt-3 card-tag-row">
+        
+          <span class="card-tag-pill">veille</span>
+        
+          <span class="card-tag-pill">workflow</span>
+        
+          <span class="card-tag-pill">outils</span>
         
       </div>
     
@@ -618,17 +619,7 @@ html[data-theme="dark"] {
         <div class="footer-links">
           
           <a
-            href="https://gitlab.com/jimchr12"
-            class="footer-link footer-float link-underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-gitlab text-[0.8rem]"></i>
-            <span>GitLab</span>
-          </a>
-          
-          <a
-            href="https://www.linkedin.com/in/jimchristopoulos-542512221/"
+            href="https://www.linkedin.com/in/jo%C3%A9-favre/"
             class="footer-link footer-float link-underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -638,13 +629,23 @@ html[data-theme="dark"] {
           </a>
           
           <a
-            href="mailto:you@example.com"
+            href="https://fr.pinterest.com/JFDSIGN/"
             class="footer-link footer-float link-underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fa-regular fa-envelope text-[0.8rem]"></i>
-            <span>Email</span>
+            <i class="fa-brands fa-pinterest text-[0.8rem]"></i>
+            <span>Pinterest</span>
+          </a>
+          
+          <a
+            href="https://www.instagram.com/jfd3sign"
+            class="footer-link footer-float link-underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-instagram text-[0.8rem]"></i>
+            <span>Instagram</span>
           </a>
           
         </div>

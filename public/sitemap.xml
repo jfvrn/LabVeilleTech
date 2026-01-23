@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/LabVeilleTech/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/LabVeilleTech/blog/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/LabVeilleTech/projects/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/LabVeilleTech/categories/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/fan-experience/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/live-stats/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/mobile-app/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/personnalisation/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/blog/uxforfootballfans/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/categories/ux-football/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/tags/ux-research/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/LabVeilleTech/projects/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/LabVeilleTech/blog/theme-guide/</loc>
@@ -30,9 +54,6 @@
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/LabVeilleTech/tags/open-source/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/LabVeilleTech/tags/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/LabVeilleTech/tags/theme/</loc>

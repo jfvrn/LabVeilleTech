@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-subtitle = "Software Engineer | Full Stack Developer | Open Source Enthusiast"
+subtitle = "Étudiant en Ingénierie des médias"
 layout = "about-alternative"
 +++
 
@@ -65,33 +65,19 @@ This makes it easy to update your stats and skills without editing this page!
 
 ---
 
-**Lead Developer** — [Modern Tech Co](https://example.com)
-*2022 – Present • Remote*
+**Freelance Graphic Designer** — [JF Design](https://www.instagram.com/jfd3sign/)
+*mars 2023 – Aujourd'hui*
 
 Leading development of cloud-native applications and mentoring engineering teams. Focus on scalable architecture, clean code practices, and continuous delivery.
 
 ---
 
-**Senior Engineer** — Startup Ventures
-*2020 – 2022 • San Francisco*
+<!-- **Livreur polyvalent** — Sushi Shop
+*2020 – 2022 • Vevey*
 
 Built full-stack applications from scratch. Worked with React, Node.js, PostgreSQL, and AWS to deliver features serving hundreds of thousands of users.
 
----
-
-**Software Engineer** — Digital Solutions
-*2018 – 2020 • New York*
-
-Developed enterprise applications using Java, Spring Boot, and modern frontend frameworks. Collaborated with cross-functional teams to ship quality software.
-
----
-
-**Junior Developer** — Tech Academy
-*2016 – 2018 • Boston*
-
-Started my career building web applications and learning industry best practices. Contributed to client projects and internal tooling.
-
----
+--- -->
 
 ## Layout Comparison
 
