@@ -1,4 +1,4 @@
-baseURL = 'https://jvrn.github.io/LabVeilleTech/'
+baseURL = 'https://jfvrn.github.io/LabVeilleTech/'
 languageCode = 'fr-ch'
 title = 'LabVeilTech - Joé Favre'
 theme = "minimal-black"
