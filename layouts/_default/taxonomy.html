@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <section class="layout-page">
+    <div class="page-int section-stack">
+      <header class="space-y-4">
+        <div>
+          <a href="/LabVeilleTech/blog/" class="text-sm link-underline text-muted mb-4 inline-block">
+            ← Back to blog
+          </a>
+          <h1 class="heading-page text-2xl sm:text-3xl">
+            {{ .Data.Singular }}: <span class="text-accent">{{ .Title }}</span>
+          </h1>
+        </div>
+        {{ with .Site.Params.blogIntro }}
+          <p class="max-w-xl text-sm text-muted">
+            {{ . }}
+          </p>
+        {{ end }}
+      </header>
+
+      {{/* Paginate posts by tag */}}
+      {{ $paginator := .Paginate .Pages }}
+
+      {{ if $paginator.Pages }}
+        <div class="grid gap-4 md:grid-cols-2">
+          {{ range $paginator.Pages.ByDate.Reverse }}
+            {{ partial "components/post-card.html" (dict "Page" . "Root" $) }}
+          {{ end }}
+        </div>
+
+        {{/* Pagination controls */}}
+        {{ if gt $paginator.TotalPages 1 }}
+          <nav class="mt-6 flex items-center justify-between text-xs text-muted">
+            {{ if $paginator.HasPrev }}
+              <a href="{{ $paginator.Prev.URL }}" class="link-underline">
+                ← Newer posts
+              </a>
+            {{ else }}
+              <span></span>
+            {{ end }}
+
+            {{ if $paginator.HasNext }}
+              <a href="{{ $paginator.Next.URL }}" class="link-underline">
+                Older posts →
+              </a>
+            {{ else }}
+              <span></span>
+            {{ end }}
+          </nav>
+        {{ end }}
+      {{ else }}
+        <p class="text-muted text-sm">No articles found for this tag.</p>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

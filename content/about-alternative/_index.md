@@ -27,29 +27,54 @@ J'ai choisi de concentrer ma veille sur l'**UX/UI et le design graphique dans le
 - Comment la data et le design génératif créent de nouvelles formes d'expression visuelle dans le sport
 - Comment les principes du jeu collectif peuvent inspirer la conception d'interfaces
 
-## Ma taxonomie
+## Ma taxonomie par tags
 
-Pour organiser ce blog, j'utilise une taxonomie à deux niveaux :
+Pour organiser ce blog, j'utilise une **taxonomie unique basée sur les tags**, pensée comme un système flexible et intuitif. Chaque article peut avoir plusieurs tags qui reflètent ses principales dimensions.
 
-### Catégories
+### Les 3 univers de ma veille
 
-Les catégories structurent les grands axes de ma veille :
+Ma taxonomie s'organise autour de **3 univers principaux**, eux-mêmes subdivisés en tags spécifiques :
 
-| Catégorie | Description |
-|-----------|-------------|
-| `ux-football` | Articles sur l'expérience utilisateur dans le football : apps de clubs, plateformes de streaming, expérience stade |
-| `graphic-football` | Articles sur le design graphique : identités visuelles, affiches, maillots, motion design |
-| `methodologie` | Articles sur ma démarche : système de veille, utilisation des LLM, workflow |
+#### 🎮 **UX/UI & Expérience fans**
+Ces tags concernent tout ce qui touche à la conception d'expériences numériques pour les supporters de football.
 
-### Tags
+| Tag | Description |
+|-----|-------------|
+| `ux-research` | Recherche utilisateur, insights et analyse des comportements des fans |
+| `fan-experience` | Conception globale de l'expérience des supporters (avant, pendant, après match) |
+| `interaction-design` | Conception détaillée des interactions et des parcours utilisateurs |
+| `mobile-app` | Applications mobiles et expériences sur smartphones |
+| `live-stats` | Statistiques en direct, real-time updates et visualisations dynamiques |
+| `personalisation` | Personnalisation des contenus et des expériences pour chaque utilisateur |
 
-Les tags permettent de filtrer des thématiques plus fines. Je les ai pensés comme des "positions sur le terrain" qui décrivent la fonction de chaque article :
+#### 🎨 **Design Graphique**
+Ces tags couvrent l'identité visuelle, l'esthétique et la création graphique appliquée au football.
 
-- **Tags orientés fan** : `fan-experience`, `live-stats`, `stadium-experience`, `personnalisation`, `mobile-app`
-- **Tags orientés design** : `branding-club`, `affiche-de-match`, `generative-design`, `data-visualisation`, `social-media`
-- **Tags orientés méthodo** : `ux-research`, `llm`, `veille`, `workflow`, `hugo`
+| Tag | Description |
+|-----|-------------|
+| `graphic-design` | Design graphique général et composantes visuelles |
+| `branding` | Identité visuelle des clubs, logos, palettes de couleurs |
+| `motion-design` | Animations, vidéos et motion graphics |
+| `data-visualization` | Visualiser les données (heatmaps, trajectoires, statistiques) |
+| `generative-design` | Design génératif : utiliser l'IA pour créer des visuels uniques |
+| `social-media` | Contenus pour réseaux sociaux et formats courts |
 
-Cette organisation permet de naviguer dans le blog comme dans une application bien conçue : on peut explorer par grand thème (catégories) ou filtrer par sujet précis (tags).
+#### 🛠️ **Méthodologie & Outils**
+Ces tags documentent mon approche, mes processus de travail et les outils que j'utilise.
+
+| Tag | Description |
+|-----|-------------|
+| `workflow` | Processus créatif, organisation du travail et amélioration continue |
+| `ia-tools` | Utilisation des outils d'IA, LLM et Photoshop pour optimiser mon travail |
+| `veille` | Système d'écoute, sources d'inspiration et organisation du contenu |
+
+### Comment naviguer
+
+- **Filtrage par tags** : Sur la page Blog, utilisez les boutons de tags pour filtrer les articles. Le bouton "Tous les articles" affiche l'ensemble du contenu
+- **Combinaison de tags** : Un article peut avoir plusieurs tags, ce qui crée des connexions naturelles entre des sujets différents
+- **Découverte intuitive** : Cliquez sur un tag pour voir tous les articles associés à ce sujet
+
+Cette approche me permet d'avoir une **flexibilité maximale** (un article peut combiner plusieurs dimensions) tout en restant **organisée et facile à explorer**.
 
 ## Pourquoi Hugo comme SSG
 

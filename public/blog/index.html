@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>LabVeilTech - Joé Favre</title>
+<title>Blogs | LabVeilTech - Joé Favre</title>
 
 <meta name="description" content="Bienvenue sur mon blog de veille technologique" />
 
@@ -21,7 +21,7 @@
 
 
 
-  <link rel="apple-touch-icon" href="/Users/joefa/Desktop/HEIG/3e/LabVeilTech/blogJoe/content/blog/_index.md" />
+  <link rel="apple-touch-icon" href="/blog" />
 
 
 
@@ -132,7 +132,7 @@ html[data-theme="dark"] {
     <div class="nav-shell">
       <div class="nav-inner">
         
-        <a href="http://localhost:1313/LabVeilleTech/" class="flex items-center gap-2">
+        <div class="flex items-center gap-2">
           
             <div class="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-surface">
               <img
@@ -145,7 +145,7 @@ html[data-theme="dark"] {
           <span class="text-xs font-semibold tracking-wide">
             Joé Favre
           </span>
-        </a>
+        </div>
 
         <div class="flex items-center gap-2">
           
@@ -280,21 +280,133 @@ html[data-theme="dark"] {
         
   <section class="layout-page">
     <div class="page-int section-stack">
-      <header class="space-y-2">
-        <h1 class="heading-page text-2xl sm:text-3xl">Blog</h1>
+      <header class="space-y-4">
+        <div>
+          <h1 class="heading-page text-2xl sm:text-3xl">Blog</h1>
+          
+            <p class="max-w-xl text-sm text-muted">
+            </p>
+          
+        </div>
+
         
-          <p class="max-w-xl text-sm text-muted">
-            Notes on engineering, design, and building small, thoughtful tools.
-          </p>
-        
+        <div class="flex flex-wrap gap-2">
+          <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-accent text-surface hover:bg-accent/90 transition-colors font-medium" data-tag="all">
+            Tous les articles
+          </button>
+          
+          
+            
+              
+            
+              
+            
+              
+            
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+            
+              
+            
+              
+            
+          
+            
+              
+            
+              
+            
+              
+            
+          
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="branding">
+              branding
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="data-visualization">
+              data-visualization
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="fan-experience">
+              fan-experience
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="generative-design">
+              generative-design
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="graphic-design">
+              graphic-design
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="ia-tools">
+              ia-tools
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="interaction-design">
+              interaction-design
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="live-stats">
+              live-stats
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="mobile-app">
+              mobile-app
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="personalisation">
+              personalisation
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="social-media">
+              social-media
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="ux-research">
+              ux-research
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="veille">
+              veille
+            </button>
+          
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="workflow">
+              workflow
+            </button>
+          
+        </div>
       </header>
 
       
-      
-
-      <div class="grid gap-4 md:grid-cols-2">
+      <div class="grid gap-4 md:grid-cols-2" id="blog-posts">
         
-          <article class="card card-pad card-home card-home--post group">
+          <div class="post-card" data-tags="fan-experience,mobile-app,live-stats,personalisation,ux-research">
+            <article class="card card-pad card-home card-home--post group">
   <a href="/LabVeilleTech/blog/uxforfootballfans/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
@@ -347,8 +459,10 @@ html[data-theme="dark"] {
   </a>
 </article>
 
+          </div>
         
-          <article class="card card-pad card-home card-home--post group">
+          <div class="post-card" data-tags="ia-tools,workflow,graphic-design">
+            <article class="card card-pad card-home card-home--post group">
   <a href="/LabVeilleTech/blog/useofllm/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
@@ -359,7 +473,7 @@ html[data-theme="dark"] {
         <div class="flex items-start justify-between gap-2">
           <div class="min-w-0">
             <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
-              Utiliser les LLM pour structurer ma veille UX/UI dans le football
+              Utiliser l&#39;IA pour optimiser mon workflow de design
             </h3>
 
             <div class="mt-0.5 flex flex-wrap items-center gap-2 text-[0.68rem] text-muted">
@@ -367,7 +481,7 @@ html[data-theme="dark"] {
                 <span>23 Jan 2026</span>
               
               
-                <span>• 2 min read</span>
+                <span>• 3 min read</span>
               
             </div>
           </div>
@@ -383,26 +497,28 @@ html[data-theme="dark"] {
 
     
       <p class="mt-2 text-xs text-muted">
-        Comment j&#39;utilise les modèles de langage pour organiser, résumer et exploiter ma veille sur l&#39;UX et le design graphique dans le football.
+        Comment j&#39;utilise les outils d&#39;IA intégrés dans Photoshop et les LLM pour optimiser mon travail de design sur le football.
       </p>
     
 
     
       <div class="mt-3 card-tag-row">
         
-          <span class="card-tag-pill">llm</span>
+          <span class="card-tag-pill">ia-tools</span>
         
-          <span class="card-tag-pill">veille</span>
+          <span class="card-tag-pill">workflow</span>
         
-          <span class="card-tag-pill">ux-research</span>
+          <span class="card-tag-pill">graphic-design</span>
         
       </div>
     
   </a>
 </article>
 
+          </div>
         
-          <article class="card card-pad card-home card-home--post group">
+          <div class="post-card" data-tags="veille,workflow">
+            <article class="card card-pad card-home card-home--post group">
   <a href="/LabVeilleTech/blog/systemedecoute/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
@@ -437,7 +553,7 @@ html[data-theme="dark"] {
 
     
       <p class="mt-2 text-xs text-muted">
-        Présentation de mon système d&#39;écoute : sources, outils, organisation du contenu et intégration avec mon blog Hugo.
+        Présentation de mon système d&#39;écoute : sources, outils, et organisation du contenu
       </p>
     
 
@@ -448,15 +564,15 @@ html[data-theme="dark"] {
         
           <span class="card-tag-pill">workflow</span>
         
-          <span class="card-tag-pill">outils</span>
-        
       </div>
     
   </a>
 </article>
 
+          </div>
         
-          <article class="card card-pad card-home card-home--post group">
+          <div class="post-card" data-tags="branding,graphic-design,data-visualization,generative-design,social-media">
+            <article class="card card-pad card-home card-home--post group">
   <a href="/LabVeilleTech/blog/designofclubs/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
@@ -498,19 +614,21 @@ html[data-theme="dark"] {
     
       <div class="mt-3 card-tag-row">
         
-          <span class="card-tag-pill">branding-club</span>
+          <span class="card-tag-pill">branding</span>
         
-          <span class="card-tag-pill">affiche-de-match</span>
+          <span class="card-tag-pill">graphic-design</span>
         
-          <span class="card-tag-pill">data-visualisation</span>
+          <span class="card-tag-pill">data-visualization</span>
         
       </div>
     
   </a>
 </article>
 
+          </div>
         
-          <article class="card card-pad card-home card-home--post group">
+          <div class="post-card" data-tags="interaction-design,graphic-design,ux-research">
+            <article class="card card-pad card-home card-home--post group">
   <a href="/LabVeilleTech/blog/learnfromthepitch/" class="card-home-body">
     <div class="card-home-header">
       <div class="card-home-icon card-home-icon--post">
@@ -552,78 +670,61 @@ html[data-theme="dark"] {
     
       <div class="mt-3 card-tag-row">
         
-          <span class="card-tag-pill">ux-philosophy</span>
-        
           <span class="card-tag-pill">interaction-design</span>
         
-          <span class="card-tag-pill">football-mindset</span>
+          <span class="card-tag-pill">graphic-design</span>
+        
+          <span class="card-tag-pill">ux-research</span>
         
       </div>
     
   </a>
 </article>
 
-        
-          <article class="card card-pad card-home card-home--post group">
-  <a href="/LabVeilleTech/blog/theme-guide/" class="card-home-body">
-    <div class="card-home-header">
-      <div class="card-home-icon card-home-icon--post">
-        <i class="fa-regular fa-file-lines"></i>
-      </div>
-
-      <div class="min-w-0">
-        <div class="flex items-start justify-between gap-2">
-          <div class="min-w-0">
-            <h3 class="truncate text-sm font-semibold tracking-tight group-hover:text-accent">
-              Complete Guide to Minimal Black Theme
-            </h3>
-
-            <div class="mt-0.5 flex flex-wrap items-center gap-2 text-[0.68rem] text-muted">
-              
-                <span>15 Jan 2025</span>
-              
-              
-                <span>• 7 min read</span>
-              
-            </div>
           </div>
-
-          
-            <span class="card-badge card-badge--soft">
-              Article
-            </span>
-          
-        </div>
+        
       </div>
-    </div>
 
-    
-      <p class="mt-2 text-xs text-muted">
-        A comprehensive guide to all features and capabilities of the Minimal Black Hugo theme
+      <p class="text-muted text-sm text-center mt-6" id="no-posts" style="display: none;">
+        Aucun article trouvé pour cette sélection.
       </p>
-    
-
-    
-      <div class="mt-3 card-tag-row">
-        
-          <span class="card-tag-pill">hugo</span>
-        
-          <span class="card-tag-pill">tutorial</span>
-        
-          <span class="card-tag-pill">guide</span>
-        
-      </div>
-    
-  </a>
-</article>
-
-        
-      </div>
-
-      
-      
     </div>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.tag-filter-btn');
+      const postCards = document.querySelectorAll('.post-card');
+      const noPostsMessage = document.getElementById('no-posts');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const selectedTag = this.getAttribute('data-tag');
+          
+          
+          filterButtons.forEach(btn => btn.classList.remove('bg-accent', 'text-surface', 'font-medium'));
+          filterButtons.forEach(btn => btn.classList.add('bg-surface', 'text-text'));
+          this.classList.add('bg-accent', 'text-surface', 'font-medium');
+          this.classList.remove('bg-surface', 'text-text');
+
+          
+          let visibleCount = 0;
+          postCards.forEach(card => {
+            const tags = card.getAttribute('data-tags').split(',');
+            if (selectedTag === 'all' || tags.includes(selectedTag)) {
+              card.style.display = 'block';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          
+          noPostsMessage.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
 
       </main>
 

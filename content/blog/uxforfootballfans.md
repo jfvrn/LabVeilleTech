@@ -2,8 +2,7 @@
 title = "UX pour les fans de football : du stade à l'écran"
 date = "2026-01-23"
 author = "Joé Favre"
-tags = ["fan-experience", "mobile-app", "live-stats", "personnalisation", "ux-research"]
-categories = ["ux-football"]
+tags = ["fan-experience", "mobile-app", "live-stats", "personalisation", "ux-research"]
 description = "Comment l'UX/UI façonne l'expérience des fans de football sur les apps, sites et plateformes de streaming."
 draft = false
 +++

@@ -2,8 +2,7 @@
 title = "Apprendre du terrain : métaphores du football pour concevoir des interfaces"
 date = "2026-01-23"
 author = "Joé Favre"
-tags = ["ux-philosophy", "interaction-design", "football-mindset", "clarte", "feedback"]
-categories = ["ux-football"]
+tags = ["interaction-design", "graphic-design", "ux-research"]
 description = "Ce que la tactique, la clarté des gestes et les icônes du football peuvent apprendre aux designers UX/UI."
 draft = false
 +++

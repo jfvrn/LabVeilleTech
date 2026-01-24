@@ -77,20 +77,6 @@ theme = "minimal-black"
     blogSubtitle = ""
     techMarqueeLabel = "Experienced In"
        
-
-  # About Page Alternative Layout Configuration - Optional
-  [params.about.alt]
-
-    # Skills/Tech Stack badges with icons
-    [[params.about.alt.skills]]
-      label = "Figma"
-      icon = "devicon-figma-plain"
-
-    [[params.about.alt.skills]]
-      label = "Photoshop"
-      icon = "devicon-photoshop-plain"
-
-
   # Hero Section Configuration
   [params.hero]
     badge = "LabVeilTech"
@@ -221,7 +207,6 @@ theme = "minimal-black"
 # Taxonomies
 [taxonomies]
   tag = "tags"
-  category = "categories"
 
 # Privacy Configuration
 [privacy]

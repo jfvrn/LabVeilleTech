@@ -1,0 +1,85 @@
+{{ define "main" }}
+  <section class="layout-page">
+    <div class="page-int section-stack">
+      <header class="space-y-4">
+        <div>
+          <h1 class="heading-page text-2xl sm:text-3xl">Blog</h1>
+          {{ with .Site.Params.blogIntro }}
+            <p class="max-w-xl text-sm text-muted">
+              {{ . }}
+            </p>
+          {{ else }}
+            <p class="max-w-xl text-sm text-muted">
+            </p>
+          {{ end }}
+        </div>
+
+        <!-- Tag Filter -->
+        <div class="flex flex-wrap gap-2">
+          <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-accent text-surface hover:bg-accent/90 transition-colors font-medium" data-tag="all">
+            Tous les articles
+          </button>
+          {{ $allTags := dict }}
+          {{ range .Pages }}
+            {{ range .Params.tags }}
+              {{ $allTags = merge $allTags (dict . true) }}
+            {{ end }}
+          {{ end }}
+          {{ range $tagName, $_ := $allTags }}
+            <button class="tag-filter-btn px-3 py-1 text-xs rounded border border-border bg-surface hover:border-accent hover:bg-accent/5 transition-colors" data-tag="{{ $tagName }}">
+              {{ $tagName }}
+            </button>
+          {{ end }}
+        </div>
+      </header>
+
+      {{/* Display all posts with data attributes for filtering */}}
+      <div class="grid gap-4 md:grid-cols-2" id="blog-posts">
+        {{ range .Pages.ByDate.Reverse }}
+          <div class="post-card" data-tags="{{ delimit .Params.tags "," }}">
+            {{ partial "components/post-card.html" (dict "Page" . "Root" $) }}
+          </div>
+        {{ end }}
+      </div>
+
+      <p class="text-muted text-sm text-center mt-6" id="no-posts" style="display: none;">
+        Aucun article trouvé pour cette sélection.
+      </p>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.tag-filter-btn');
+      const postCards = document.querySelectorAll('.post-card');
+      const noPostsMessage = document.getElementById('no-posts');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const selectedTag = this.getAttribute('data-tag');
+          
+          // Update button styles
+          filterButtons.forEach(btn => btn.classList.remove('bg-accent', 'text-surface', 'font-medium'));
+          filterButtons.forEach(btn => btn.classList.add('bg-surface', 'text-text'));
+          this.classList.add('bg-accent', 'text-surface', 'font-medium');
+          this.classList.remove('bg-surface', 'text-text');
+
+          // Filter posts
+          let visibleCount = 0;
+          postCards.forEach(card => {
+            const tags = card.getAttribute('data-tags').split(',');
+            if (selectedTag === 'all' || tags.includes(selectedTag)) {
+              card.style.display = 'block';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          // Show/hide no posts message
+          noPostsMessage.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+{{ end }}

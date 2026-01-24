@@ -2,8 +2,7 @@
 title = "Design graphique dans le football : identités, affiches et maillots"
 date = "2026-01-23"
 author = "Joé Favre"
-tags = ["branding-club", "affiche-de-match", "data-visualisation", "generative-design", "social-media"]
-categories = ["graphic-football"]
+tags = ["branding", "graphic-design", "data-visualization", "generative-design", "social-media"]
 description = "Comment le design graphique façonne l'image des clubs et l'engagement des fans."
 draft = false
 +++
